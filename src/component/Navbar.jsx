@@ -90,9 +90,13 @@ const Navbar = () => {
             </ScrollLink>
           </li>
           <li>
-            <button className="px-6 py-2 text-black border-2 border-orange-600 rounded-full hover:bg-orange-500 hover:text-white transition-colors sm:px-4 sm:py-1 md:px-6 md:py-2">
+            <a
+              href="/CV.pdf"
+              download
+              className="px-6 py-2 text-black border-2 border-orange-600 rounded-full hover:bg-orange-500 hover:text-white transition-colors sm:px-4 sm:py-1 md:px-6 md:py-2"
+            >
               Download CV
-            </button>
+            </a>
           </li>
         </ul>
 
@@ -194,10 +198,15 @@ const Navbar = () => {
             </ScrollLink>
           </li>
           <li>
-            <button className="w-full px-6 py-2 text-black border-2 border-orange-600 rounded-full hover:bg-orange-500 hover:text-white transition-colors">
+            <a
+              href="/CV.pdf"
+              download
+              className="px-6 py-2 text-black border-2 border-orange-600 rounded-full hover:bg-orange-500 hover:text-white transition-colors sm:px-4 sm:py-1 md:px-6 md:py-2"
+            >
               Download CV
-            </button>
+            </a>
           </li>
+          <h1>mdfeni</h1>
         </ul>
       </div>
     </nav>
