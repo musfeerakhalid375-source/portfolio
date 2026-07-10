@@ -85,28 +85,28 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4 text-white">Follow Me</h3>
             <div className="flex gap-3">
               <a
-                href="#"
+                href="https://www.facebook.com/musfeerakhalid/"
                 aria-label="Facebook"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-orange-500 transition-colors text-gray-400 hover:text-white"
               >
                 <FaFacebookF />
               </a>
               <a
-                href="#"
+                href="https://twitter.com/musfeerakhalid"
                 aria-label="Twitter"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-orange-500 transition-colors text-gray-400 hover:text-white"
               >
                 <FaTwitter />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/musfeera-khalid/"
                 aria-label="LinkedIn"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-orange-500 transition-colors text-gray-400 hover:text-white"
               >
                 <FaLinkedinIn />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/musfeerakhalid/"
                 aria-label="Instagram"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-orange-500 transition-colors text-gray-400 hover:text-white"
               >
