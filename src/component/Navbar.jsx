@@ -206,7 +206,6 @@ const Navbar = () => {
               Download CV
             </a>
           </li>
-          <h1>mdfeni</h1>
         </ul>
       </div>
     </nav>
