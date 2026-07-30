@@ -19,7 +19,10 @@
 
 }
 
-
+::-webkit-scrollbar {
+  width: 0px; /* Remove scrollbar space */
+  /* background: transparent; Optional: just to make it invisible */
+}
 
 
 @media (max-width:786px) {
