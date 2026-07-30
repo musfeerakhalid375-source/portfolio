@@ -43,8 +43,8 @@ const Home = () => {
           </p>
 
           <p className="text-gray-600 leading-relaxed max-w-md">
-            I'm a passionate designer based in Pakistan, dedicated to crafting
-            beautiful and functional digital experiences.
+           I'm a passionate designer and MERN stack developer based in Pakistan, dedicated to
+            crafting beautiful and functional digital experiences.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 mt-2">
