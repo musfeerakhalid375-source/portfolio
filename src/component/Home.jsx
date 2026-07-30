@@ -50,9 +50,11 @@ const Home = () => {
           <div className="flex flex-wrap items-center gap-4 mt-2">
             {/* Animated "Hire Me" button */}
             <button className="relative w-[150px] overflow-hidden group px-6 py-3 border-2 border-orange-600 rounded-full">
-              <span className="relative z-10 group-hover:text-white transition-colors duration-300">
+              <a href="#contact">
+                <span className="relative z-10 group-hover:text-white transition-colors duration-300">
                 Hire Me
               </span>
+              </a>
               <div className="absolute bottom-0 left-0 w-full h-full bg-orange-600 origin-bottom scale-y-0 group-hover:scale-y-100 transition-transform duration-500"></div>
             </button>
           </div>

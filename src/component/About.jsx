@@ -84,10 +84,10 @@ const About = () => {
           </div>
 
           {/* Hire Me Button */}
-          <button className="mt-4 px-8 py-3 bg-orange-600 text-white font-semibold rounded-full shadow-lg hover:bg-orange-700 hover:scale-105 transition-all duration-200 flex items-center gap-2">
+          <a href="#contact"><button className="mt-4 px-8 py-3 bg-orange-600 text-white font-semibold rounded-full shadow-lg hover:bg-orange-700 hover:scale-105 transition-all duration-200 flex items-center gap-2">
             Hire Me
             <FaDownload className="text-sm" />
-          </button>
+          </button></a>
 
         </div>
 
