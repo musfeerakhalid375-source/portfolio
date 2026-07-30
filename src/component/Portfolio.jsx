@@ -43,7 +43,7 @@ const projects = [
     title: 'Contact Web App',
     description: 'High-converting landing page for a startup.',
     image: project5,
-    link: 'https://musfeerakhalid375-source.github.io/react/',
+    link: 'https://crud-ui-phi.vercel.app/',
   },
   {
     id: 6,

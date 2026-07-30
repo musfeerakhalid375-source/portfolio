@@ -14,9 +14,7 @@ const About = () => {
         <div className="profile-wrapper relative w-full lg:w-1/2 flex justify-center">
           <div className="relative w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96">
 
-            {/* Decorative Background Ring */}
           
-
             {/* Profile Image - Circular with object-cover */}
             <div className="w-full h-full">
               <img
@@ -26,7 +24,7 @@ const About = () => {
               />
             </div>
 
-            {/* -------- Badge 1 – Top Left (Years of Success) -------- */}
+            {/* -------- Top Left (Years of Success) -------- */}
             <div className="absolute -top-4 -left-4 md:-top-6 md:-left-6 bg-white rounded-xl shadow-lg p-3 md:p-4 flex items-center gap-2 md:gap-3 z-10">
               <span className="text-2xl md:text-3xl font-bold text-orange-600">18</span>
               <div>
