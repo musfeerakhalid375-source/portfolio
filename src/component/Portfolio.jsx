@@ -87,6 +87,7 @@ const Portfolio = () => {
 // ---------- Single Card Component (Wider & Full Image) ----------
 const ProjectCard = ({ project }) => {
   const { title, description, image, link } = project;
+  const hasLink = link && link !== '#';
 
   return (
     <div className="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 hover:border-orange-300 w-full max-w-[380px]">
@@ -99,7 +100,6 @@ const ProjectCard = ({ project }) => {
         />
       </div>
 
-      {/* Text Content */}
       <div className="p-5 md:p-6">
         <h3 className="text-xl font-bold text-gray-800 mb-2 transition-colors duration-300 hover:text-orange-600 line-clamp-1">
           {title}
@@ -107,16 +107,23 @@ const ProjectCard = ({ project }) => {
         <p className="text-gray-600 text-sm leading-relaxed mb-4 line-clamp-2">
           {description}
         </p>
-        
-        {/* View Button */}
-        <a
-          href={link}
-          target='blank'
-          className="inline-flex items-center gap-2 px-5 py-2.5 bg-orange-600 text-white font-semibold rounded-full hover:bg-orange-700 transition-all duration-200 text-sm hover:shadow-lg"
-        >
-          View Project
-          <FiExternalLink className="text-sm" />
-        </a>
+
+        {hasLink ? (
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-5 py-2.5 bg-orange-600 text-white font-semibold rounded-full hover:bg-orange-700 transition-all duration-200 text-sm hover:shadow-lg"
+          >
+            View Project
+            <FiExternalLink className="text-sm" />
+          </a>
+        ) : (
+          <span className="inline-flex items-center gap-2 px-5 py-2.5 bg-gray-300 text-gray-500 font-semibold rounded-full text-sm cursor-not-allowed">
+            Coming Soon
+            <FiExternalLink className="text-sm" />
+          </span>
+        )}
       </div>
 
     </div>
