@@ -29,14 +29,14 @@ const projects = [
     title: 'Vegetable E-commerce Dashboard',
     description: 'Modern UI for a health and fitness mobile app.',
     image: project3,
-    link: 'https://musfeerakhalid375-source.github.io/react/',
+    link: '#',
   },
   {
     id: 4,
     title: 'Weather Forecast Dashboard',
     description: 'Interactive dashboard with real-time data.',
     image: project4,
-    link: 'https://musfeerakhalid375-source.github.io/react/',
+    link: '#',
   },
   {
     id: 5,
@@ -50,7 +50,7 @@ const projects = [
     title: 'Brand Identity',
     description: 'Complete branding including logo and style guide.',
     image: project6,
-    link: 'https://musfeerakhalid375-source.github.io/react/',
+    link: '#',
   },
 ];
 
