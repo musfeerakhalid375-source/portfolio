@@ -111,6 +111,7 @@ const ProjectCard = ({ project }) => {
         {/* View Button */}
         <a
           href={link}
+          target='blank'
           className="inline-flex items-center gap-2 px-5 py-2.5 bg-orange-600 text-white font-semibold rounded-full hover:bg-orange-700 transition-all duration-200 text-sm hover:shadow-lg"
         >
           View Project
